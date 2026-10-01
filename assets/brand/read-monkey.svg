@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- ears -->
+  <circle cx="40" cy="128" r="34" fill="#8a5a3b"/>
+  <circle cx="216" cy="128" r="34" fill="#8a5a3b"/>
+  <circle cx="42" cy="128" r="20" fill="#f3d2b3"/>
+  <circle cx="214" cy="128" r="20" fill="#f3d2b3"/>
+  <!-- head -->
+  <ellipse cx="128" cy="132" rx="96" ry="92" fill="#9b6744"/>
+  <!-- face mask: two eye lobes + muzzle -->
+  <ellipse cx="96" cy="118" rx="40" ry="44" fill="#f6dcc2"/>
+  <ellipse cx="160" cy="118" rx="40" ry="44" fill="#f6dcc2"/>
+  <ellipse cx="128" cy="170" rx="66" ry="46" fill="#f6dcc2"/>
+  <!-- eyes -->
+  <circle cx="98" cy="118" r="13" fill="#2b1d16"/>
+  <circle cx="158" cy="118" r="13" fill="#2b1d16"/>
+  <circle cx="102" cy="113" r="4.5" fill="#fff"/>
+  <circle cx="162" cy="113" r="4.5" fill="#fff"/>
+  <!-- blush -->
+  <ellipse cx="78" cy="156" rx="15" ry="9" fill="#f4a3a8" opacity=".75"/>
+  <ellipse cx="178" cy="156" rx="15" ry="9" fill="#f4a3a8" opacity=".75"/>
+  <!-- nose + smile -->
+  <ellipse cx="120" cy="152" rx="4" ry="3" fill="#6b4430"/>
+  <ellipse cx="136" cy="152" rx="4" ry="3" fill="#6b4430"/>
+  <path d="M104 172 Q128 196 152 172" fill="none" stroke="#6b4430" stroke-width="6" stroke-linecap="round"/>
+</svg>
