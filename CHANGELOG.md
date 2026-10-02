@@ -102,7 +102,7 @@
 
 - [#2218](https://github.com/mengxi-ream/read-frog/pull/2218) [`0bfc7ac`](https://github.com/mengxi-ream/read-frog/commit/0bfc7acd15f6b47a49f13cf7145bda68b4144475) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - fix(input-translation): restore translation in Reddit reply editors
 
-- [#2226](https://github.com/mengxi-ream/read-frog/pull/2226) [`f1cde34`](https://github.com/mengxi-ream/read-frog/commit/f1cde34a011ba959d8d9d3111ef7f9000bdd4a7b) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - fix(translation): keep Read Frog controls mounted after client-side body replacement
+- [#2226](https://github.com/mengxi-ream/read-frog/pull/2226) [`f1cde34`](https://github.com/mengxi-ream/read-frog/commit/f1cde34a011ba959d8d9d3111ef7f9000bdd4a7b) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - fix(translation): keep Read Monkey controls mounted after client-side body replacement
 
 ## 1.47.4
 
@@ -136,7 +136,7 @@
 
 ### Patch Changes
 
-- [#2195](https://github.com/mengxi-ream/read-frog/pull/2195) [`38e3b1a`](https://github.com/mengxi-ream/read-frog/commit/38e3b1a330e3c25c8bec8fae7058044004736e12) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - feat(popup): ask for a store review once you have actually been using Read Frog
+- [#2195](https://github.com/mengxi-ream/read-frog/pull/2195) [`38e3b1a`](https://github.com/mengxi-ream/read-frog/commit/38e3b1a330e3c25c8bec8fae7058044004736e12) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - feat(popup): ask for a store review once you have actually been using Read Monkey
 
   A small card now appears at the bottom of the popup offering to open the store's review
   page, and it only shows up after you have successfully used a feature on three separate
@@ -1013,7 +1013,7 @@ manipulation`, firing `pointercancel` and breaking touch drag gestures
 
 ### Patch Changes
 
-- [#1771](https://github.com/mengxi-ream/read-frog/pull/1771) [`c8ac979`](https://github.com/mengxi-ream/read-frog/commit/c8ac97968408f41b71bad7eb47d53a4930072cab) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - fix(selection): resolve Read Frog subtitle selections inside the subtitles shadow root
+- [#1771](https://github.com/mengxi-ream/read-frog/pull/1771) [`c8ac979`](https://github.com/mengxi-ream/read-frog/commit/c8ac97968408f41b71bad7eb47d53a4930072cab) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - fix(selection): resolve Read Monkey subtitle selections inside the subtitles shadow root
 
 ## 1.37.1
 
@@ -1061,7 +1061,7 @@ manipulation`, firing `pointercancel` and breaking touch drag gestures
 
 - [#1742](https://github.com/mengxi-ream/read-frog/pull/1742) [`9eb2a89`](https://github.com/mengxi-ream/read-frog/commit/9eb2a896211e88c0c6826aaa4d56527b86285e42) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - fix(custom-actions): localize the hosted free AI provider name and keep it scoped to custom actions
 
-- [#1745](https://github.com/mengxi-ream/read-frog/pull/1745) [`5cedf9e`](https://github.com/mengxi-ream/read-frog/commit/5cedf9e3fcd3f570513f38cf8c4a212eb2305067) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - fix(custom-actions): use the Read Frog avatar for the free AI service icon
+- [#1745](https://github.com/mengxi-ream/read-frog/pull/1745) [`5cedf9e`](https://github.com/mengxi-ream/read-frog/commit/5cedf9e3fcd3f570513f38cf8c4a212eb2305067) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - fix(custom-actions): use the Read Monkey avatar for the free AI service icon
 
 - [#1743](https://github.com/mengxi-ream/read-frog/pull/1743) [`ca5c026`](https://github.com/mengxi-ream/read-frog/commit/ca5c026667b5f91050e733b27460c5a66dbcf3cd) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - Add a popup provider drawer for choosing feature-specific providers.
 
@@ -1073,7 +1073,7 @@ manipulation`, firing `pointercancel` and breaking touch drag gestures
 
 - [#1734](https://github.com/mengxi-ream/read-frog/pull/1734) [`d5f5c4d`](https://github.com/mengxi-ream/read-frog/commit/d5f5c4d06d993ad069b378676eae5ecc39b6312f) Thanks [@ananaBMaster](https://github.com/ananaBMaster)! - feat(providers): add current xAI Grok models
 
-- [#1717](https://github.com/mengxi-ream/read-frog/pull/1717) [`accf05b`](https://github.com/mengxi-ream/read-frog/commit/accf05b21e2909264a3fd03cc4740854e729cc02) Thanks [@taiiiyang](https://github.com/taiiiyang)! - feat(subtitles): add a Read Frog menu button to YouTube Shorts controls
+- [#1717](https://github.com/mengxi-ream/read-frog/pull/1717) [`accf05b`](https://github.com/mengxi-ream/read-frog/commit/accf05b21e2909264a3fd03cc4740854e729cc02) Thanks [@taiiiyang](https://github.com/taiiiyang)! - feat(subtitles): add a Read Monkey menu button to YouTube Shorts controls
 
 ## 1.35.1
 

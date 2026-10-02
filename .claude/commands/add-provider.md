@@ -1,4 +1,4 @@
-Add a new AI provider to the Read Frog extension: $ARGUMENTS.
+Add a new AI provider to the Read Monkey extension: $ARGUMENTS.
 
 Follow these steps:
 

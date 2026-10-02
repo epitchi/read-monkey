@@ -10,7 +10,8 @@ Mỗi buổi ghi: 👤 người dùng thấy · 🔧 bên trong · 🐞 lỗi t�
 - 🔧 `store/`: 5 ảnh 1280×800 chụp từ extension thật + server thật, promo 440×280, icon, và
   `LISTING.md` — đủ mọi ô Developer Dashboard hỏi (mô tả, single purpose, giải trình từng quyền,
   khai báo dữ liệu). File zip giờ tên `read-monkey-<version>-chrome.zip`.
-- ⚠️ **Chưa lên store.** GPL buộc công khai repo này trước khi phát; chờ Epitchi quyết.
+- ⚠️ **Chưa lên store.** GPL buộc công khai repo này trước khi phát.
+- 🔧 2026-10-02 10:30: Epitchi duyệt, repo `epitchi/read-monkey` đã **public** (lịch sử 1 commit, quét không thấy secret riêng). Zip build lại khớp HEAD. Còn lại: upload qua Developer Dashboard.
 - 🔧 Repo giờ là submodule `read-monkey/` trong repo `idea`.
 
 ## 2026-10-01 khuya — server tách repo riêng
@@ -34,15 +35,15 @@ Mỗi buổi ghi: 👤 người dùng thấy · 🔧 bên trong · 🐞 lỗi t�
 - 🐞 `wrangler dev` viết lại header `Origin` khi có route custom domain → đăng ký bị 403 ở local.
   Chạy dev với `--local-upstream localhost:8787`.
 
-## 2026-10-01 — fork từ Read Frog `c72749d4` (v1.49.3)
+## 2026-10-01 — fork từ Read Monkey `c72749d4` (v1.49.3)
 
 - 👤 Tên **Read Monkey** ở cả 10 ngôn ngữ (Nhật 読書ザル, Trung 陪读猴 / 陪讀猴).
 - 👤 Icon mặt khỉ, tự vẽ bằng SVG (`assets/brand/`), cả bản "đã dịch" có dấu tick xanh; thay luôn
   logo trong nút nổi, side panel, nút phụ đề YouTube, và 2 ảnh demo.
 - 👤 Email hỗ trợ → thienvanlea1@gmail.com. "Góp ý", "Báo lỗi", "Roadmap", "Đánh giá" → GitHub
-  issues/repo `epitchi/read-monkey`. **Bỏ** Discord và WeChat của Read Frog.
+  issues/repo `epitchi/read-monkey`. **Bỏ** Discord và WeChat của Read Monkey.
 - 🔧 Server (`api`, website, cookie đăng nhập) trỏ vào `*.read-monkey.invalid` — không bao giờ phân
-  giải. Không còn gọi tới server Read Frog, không gửi analytics (PostHog), không gửi khảo sát
+  giải. Không còn gọi tới server Read Monkey, không gửi analytics (PostHog), không gửi khảo sát
   gỡ cài đặt về Tally của họ, link giới thiệu Jalapeno/Atlas không còn ghi công cho họ.
 - 🔧 Không tự mở tab hướng dẫn khi cài (trang đó nằm trên website mình chưa có).
 - 🔧 Đã kiểm trên Chromium thật: nạp được, dịch song ngữ cả trang Wikipedia bằng Google miễn phí
@@ -52,6 +53,6 @@ Mỗi buổi ghi: 👤 người dùng thấy · 🔧 bên trong · 🐞 lỗi t�
 
 - **Phụ đề AI, thanh toán, MCP, đăng nhập Google** — chưa làm (theo dõi ở repo server).
 - **Sync Google Drive** — cần OAuth client ID riêng (`WXT_GOOGLE_CLIENT_ID`).
-- **Link docs/tutorial** — server chưa có trang `/docs`, `/guide` (404); trang biến prompt vẫn trỏ docs Read Frog.
-- Repo GitHub `epitchi/read-monkey` là **private**; listing store chưa có.
-- Thư mục `readmes/` và ảnh marketing trong `assets/` vẫn là của Read Frog.
+- **Link docs/tutorial** — server chưa có trang `/docs`, `/guide` (404); trang biến prompt vẫn trỏ docs Read Monkey.
+- Repo GitHub `epitchi/read-monkey` là **private** (public từ 2026-10-02); listing store chưa có.
+- Thư mục `readmes/` và ảnh marketing trong `assets/` vẫn là của Read Monkey.

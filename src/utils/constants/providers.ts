@@ -9,7 +9,7 @@ import type {
   ProviderSponsorConfig,
 } from "@/types/config/provider"
 import type { Theme } from "@/types/config/theme"
-import { APP_NAME } from "@read-frog/definitions"
+import { APP_NAME } from "@/utils/constants/app"
 import { camelCase } from "case-anything"
 import customProviderLogo from "@/assets/providers/custom-provider.svg?url&no-inline"
 import customResponsesLogo from "@/assets/providers/custom-responses.svg?url&no-inline"

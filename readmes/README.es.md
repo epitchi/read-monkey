@@ -1,6 +1,6 @@
 <div align="center"><a name="readme-top"></a>
 
-[![Read Frog banner][image-banner]][website]
+[![Read Monkey banner][image-banner]][website]
 
 <p align="center">
   <a href="https://trendshift.io/repositories/22377" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22377" alt="mengxi-ream%2Fread-frog | Trendshift" width="250" height="55" /></a>
@@ -72,9 +72,9 @@ https://github.com/user-attachments/assets/c000c3e7-40af-4621-8a7f-72a685732c31
 
 ## 👋🏻 Primeros pasos y comunidad
 
-La visión de Read Frog es ofrecer una experiencia de aprendizaje de idiomas fácil de usar, inteligente y personalizada para estudiantes de todos los niveles. En la era de la IA esto ya es posible, pero todavía hay pocos productos que cubran bien esta necesidad. Por eso decidimos construirlo nosotros mismos.
+La visión de Read Monkey es ofrecer una experiencia de aprendizaje de idiomas fácil de usar, inteligente y personalizada para estudiantes de todos los niveles. En la era de la IA esto ya es posible, pero todavía hay pocos productos que cubran bien esta necesidad. Por eso decidimos construirlo nosotros mismos.
 
-Tanto si eres usuario como desarrollador, Read Frog puede ser una parte importante de ese camino. El proyecto sigue en desarrollo activo y agradecemos cualquier comentario o [issue][issues-link].
+Tanto si eres usuario como desarrollador, Read Monkey puede ser una parte importante de ese camino. El proyecto sigue en desarrollo activo y agradecemos cualquier comentario o [issue][issues-link].
 
 ### Descarga
 
@@ -94,7 +94,7 @@ Tanto si eres usuario como desarrollador, Read Frog puede ser una parte importan
 >
 > **⭐️ Danos una estrella** para recibir notificaciones de cada lanzamiento en GitHub sin retraso.
 
-[![Star Read Frog on GitHub][image-star]][github-star-link]
+[![Star Read Monkey on GitHub][image-star]][github-star-link]
 
 <details>
 <summary>
@@ -113,7 +113,7 @@ Tanto si eres usuario como desarrollador, Read Frog puede ser una parte importan
 
 ## ✨ Funciones
 
-Convierte tu lectura diaria en la web en una experiencia inmersiva de aprendizaje de idiomas con Read Frog.
+Convierte tu lectura diaria en la web en una experiencia inmersiva de aprendizaje de idiomas con Read Monkey.
 
 ### 🪄 [Acciones AI personalizadas][docs-tutorial]
 
@@ -125,7 +125,7 @@ Empieza con las plantillas integradas de **Diccionario** y **Mejorar escritura**
 
 Guarda vocabulario, definiciones, ejemplos, traducciones y notas de lectura en Notebase, y conviértelos en tarjetas con plantillas personalizables. Lo que descubres mientras lees se transforma en material de estudio sin interrumpir tu lectura.
 
-Repasa en línea las tarjetas pendientes y califica cada una como **Otra vez**, **Difícil**, **Bien** o **Fácil**. El planificador de repetición espaciada de Read Frog usa tus respuestas para mostrar cada tarjeta de nuevo justo antes de que la olvides.
+Repasa en línea las tarjetas pendientes y califica cada una como **Otra vez**, **Difícil**, **Bien** o **Fácil**. El planificador de repetición espaciada de Read Monkey usa tus respuestas para mostrar cada tarjeta de nuevo justo antes de que la olvides.
 
 ### 🔄 [Bilingüe / Solo traducción][docs-tutorial]
 
@@ -141,7 +141,7 @@ La barra se coloca automáticamente dentro de la ventana, se puede arrastrar y f
 
 ### 🧠 [Traducción con contexto][docs-tutorial]
 
-Permite que la IA entienda el contexto completo de lo que lees. Read Frog extrae el título de la página y una versión Markdown concisa del contenido para generar traducciones más precisas y adecuadas al contexto.
+Permite que la IA entienda el contexto completo de lo que lees. Read Monkey extrae el título de la página y una versión Markdown concisa del contenido para generar traducciones más precisas y adecuadas al contexto.
 
 Así los términos técnicos se traducen correctamente, las expresiones literarias conservan matices y las frases ambiguas se interpretan según el contenido que las rodea.
 
@@ -157,7 +157,7 @@ La detección automática de idioma y el mapeo de voces por idioma ayudan a eleg
 
 ### 📦 [Solicitudes por lotes][docs-tutorial]
 
-Ahorra hasta un 70% en costes de API con agrupación inteligente de solicitudes. Read Frog combina varias traducciones en una sola llamada, reduciendo overhead y uso de tokens sin sacrificar calidad.
+Ahorra hasta un 70% en costes de API con agrupación inteligente de solicitudes. Read Monkey combina varias traducciones en una sola llamada, reduciendo overhead y uso de tokens sin sacrificar calidad.
 
 Incluye reintentos con backoff exponencial y fallback automático a solicitudes individuales si falla el procesamiento por lotes.
 
@@ -177,7 +177,7 @@ También hay opciones gratuitas: Google Translate, Microsoft Translate y DeepLX 
 
 Toda contribución es bienvenida.
 
-1. Recomienda Read Frog a tus amigos y familiares.
+1. Recomienda Read Monkey a tus amigos y familiares.
 2. Reporta [issues][issues-link] y envía feedback.
 3. Contribuye con código.
 
@@ -198,7 +198,7 @@ Consulta [CONTRIBUTING.md](../CONTRIBUTING.md) para los términos de licencia de
     <tr>
       <th colspan="2">
         <br>
-        <img src="https://contrib.rocks/image?repo=mengxi-ream/read-frog" alt="Read Frog contributors"><br>
+        <img src="https://contrib.rocks/image?repo=mengxi-ream/read-frog" alt="Read Monkey contributors"><br>
         <br>
       </th>
     </tr>

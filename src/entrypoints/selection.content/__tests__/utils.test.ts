@@ -263,7 +263,7 @@ describe("readSelectionSnapshot", () => {
     })
   })
 
-  it("passes the Read Frog subtitles shadow root when selection boundaries expose only the host", () => {
+  it("passes the Read Monkey subtitles shadow root when selection boundaries expose only the host", () => {
     document.body.innerHTML = `
       <div id="read-frog-subtitles-ui-host"></div>
       <main><span id="fallback">against</span></main>

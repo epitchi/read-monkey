@@ -5,7 +5,7 @@ Everything the Developer Dashboard asks for, in the order it asks. Upload packag
 
 ## 0. Before submitting — GPL
 
-Read Monkey is a GPL-3.0 fork of Read Frog. Distributing it (a store listing is distribution)
+Read Monkey is a GPL-3.0 fork of Read Monkey. Distributing it (a store listing is distribution)
 requires offering the source: **make `github.com/epitchi/read-monkey` public first.** The short
 description also says "open source", which is only true once it is. The server repo
 (`read-monkey-server`) is separate code and can stay private.
@@ -32,7 +32,7 @@ Read Monkey helps you read the web in a foreign language — and learn it while 
 
 The extension is free. An optional Pro or Ultra plan adds Built-in AI that needs no API key, plus unlimited notes and reviews.
 
-Read Monkey is open source (GPL-3.0), based on Read Frog.
+Read Monkey is open source (GPL-3.0), based on Read Monkey.
 Support: thienvanlea1@gmail.com
 ```
 

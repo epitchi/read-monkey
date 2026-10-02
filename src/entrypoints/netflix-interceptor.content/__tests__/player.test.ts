@@ -84,7 +84,7 @@ describe("Netflix player requests", () => {
     expect(current).toBe(OFF)
   })
 
-  it("keeps a track the viewer chose after Read Frog picked one", async () => {
+  it("keeps a track the viewer chose after Read Monkey picked one", async () => {
     await request("load")
     current = EN
     await expect(request("load")).resolves.toMatchObject({ trackId: "en" })

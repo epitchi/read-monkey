@@ -36,7 +36,7 @@ import { resolveActionLayout } from "@/utils/layout-host/resolve"
 //
 // Holds no secrets: the provider and the Notebase account stay out.
 
-// What Read Frog's built-in AI accepts (the api-contract's hosted structured
+// What Read Monkey's built-in AI accepts (the api-contract's hosted structured
 // object input). Bring-your-own providers take any size.
 const HOSTED_LIMITS = {
   instructions: 16_000,
@@ -157,7 +157,7 @@ function en(key: UiLabelKey) {
 function buildUiLabelGlossary(uiLocale: SupportedUiLocale, uiLanguage: string) {
   if (uiLocale === "en") return ""
   const rows = UI_LABEL_KEYS.map((key) => `- ${en(key)} → ${i18n.t(key)}`)
-  return `My Read Frog interface is in ${uiLanguage}, so the editor shows these labels instead of the English ones used below. Use the ones on the right when you tell me where to click or paste:
+  return `My Read Monkey interface is in ${uiLanguage}, so the editor shows these labels instead of the English ones used below. Use the ones on the right when you tell me where to click or paste:
 ${rows.join("\n")}
 `
 }
@@ -248,9 +248,9 @@ export function buildAiConfigHelperPrompt({
     label(`${TEMPLATES}.improveWriting.name`),
   ].join(", ")
 
-  return `# Help me set up a custom AI action in Read Frog
+  return `# Help me set up a custom AI action in Read Monkey
 
-I use Read Frog (陪读蛙), a browser extension for reading and learning languages on the web. It lets me create **custom AI actions**: buttons that send the text I select on a page to an AI model and show a structured answer in a popup. I'd like your help configuring one. You can't see my extension, so you'll design the settings and I'll copy them in by hand. Everything you need is below: how actions work, every setting and its rules, the layout language, and the action I have open.
+I use Read Monkey (陪读蛙), a browser extension for reading and learning languages on the web. It lets me create **custom AI actions**: buttons that send the text I select on a page to an AI model and show a structured answer in a popup. I'd like your help configuring one. You can't see my extension, so you'll design the settings and I'll copy them in by hand. Everything you need is below: how actions work, every setting and its rules, the layout language, and the action I have open.
 
 ## How to work with me
 
@@ -268,12 +268,12 @@ Talk to me in ${uiLanguage}, unless I write in another language.
 ${buildUiLabelGlossary(uiLocale, uiLanguage)}
 ## How a custom AI action runs
 
-1. I select text on a web page and click the action's icon in Read Frog's selection toolbar.
-2. Read Frog fills in the tokens (below) in the System prompt, the Prompt and every field description.
+1. I select text on a web page and click the action's icon in Read Monkey's selection toolbar.
+2. Read Monkey fills in the tokens (below) in the System prompt, the Prompt and every field description.
 3. It sends the System prompt (as the system instructions) and the Prompt (as the user message) to the AI provider chosen for the action, asking for **structured output**: one JSON object whose keys are exactly the output fields.
 4. The answer streams into a popup next to the selection (${POPUP_WIDTH.default}px wide by default, as narrow as ${POPUP_WIDTH.min}px), drawn by the action's Layout. Fields fill in as they arrive, in schema order.
 
-Read Frog appends an output contract to the end of the System prompt by itself. It lists every field (key, type, description, nullable) and tells the model to return one bare JSON object with exactly those keys, no markdown or code fences, \`null\` for unknown values, and numbers as JSON numbers. So:
+Read Monkey appends an output contract to the end of the System prompt by itself. It lists every field (key, type, description, nullable) and tells the model to return one bare JSON object with exactly those keys, no markdown or code fences, \`null\` for unknown values, and numbers as JSON numbers. So:
 - don't repeat JSON formatting rules in the System prompt, and never ask for markdown or code fences;
 - do say precisely what each field holds in its **Description**: it is the model's main guide for that field.
 
@@ -295,8 +295,8 @@ The tooltip of the action's button in the selection toolbar. Required, and uniqu
 An Iconify icon id, \`prefix:name\`, e.g. \`tabler:bulb\`, \`tabler:language\`, \`tabler:school\`. Any icon from https://icon-sets.iconify.design works; prefer the Tabler set (\`tabler:\`), and only suggest ids you're confident exist.
 
 ### Provider
-Which AI model runs the action: Read Frog's built-in AI, or one of the providers I've set up with my own API key. The model must support structured output. I pick it myself; if the task needs a strong model (careful reasoning, long JSON inside a string), tell me.
-With Read Frog's built-in AI: the Prompt must not be empty, the System prompt must stay under ${HOSTED_LIMITS.instructions.toLocaleString("en")} characters once the tokens are filled in and the output contract is appended, the filled-in Prompt under ${HOSTED_LIMITS.prompt.toLocaleString("en")}, and there can be at most ${HOSTED_LIMITS.fields} output fields with names of at most ${HOSTED_LIMITS.fieldName} characters.
+Which AI model runs the action: Read Monkey's built-in AI, or one of the providers I've set up with my own API key. The model must support structured output. I pick it myself; if the task needs a strong model (careful reasoning, long JSON inside a string), tell me.
+With Read Monkey's built-in AI: the Prompt must not be empty, the System prompt must stay under ${HOSTED_LIMITS.instructions.toLocaleString("en")} characters once the tokens are filled in and the output contract is appended, the filled-in Prompt under ${HOSTED_LIMITS.prompt.toLocaleString("en")}, and there can be at most ${HOSTED_LIMITS.fields} output fields with names of at most ${HOSTED_LIMITS.fieldName} characters.
 
 ### System prompt
 The model's instructions: its role, the goal, rules, and one or two short examples, which help a lot with consistent output. Tokens are allowed. Good practice:
@@ -320,7 +320,7 @@ In the editor, ${addField} adds a field, clicking a field edits it, and each fie
 How the result looks in the popup: HTML with Liquid, described in "Layout reference". ${edit} opens a code editor with a live preview on sample data (and lint messages); ${reset} replaces the layout with the default field list (or, when the fields fit, a Dictionary or Sentence analysis card). An empty layout shows the default field list: each field's name above its value. The default is often enough; write a layout when it clearly helps, e.g. a headword card, highlights on the selected text, a list or table, badges.
 
 ### Notebase tab
-Optionally saves every result as a row in one of my Notebases (Read Frog's online notes and flashcards; needs a readfrog.app account). I choose the Notebase and map output fields to its columns myself; you can't set that up. If I want to save results, plan one field per column, with \`number\` fields for number columns.
+Optionally saves every result as a row in one of my Notebases (Read Monkey's online notes and flashcards; needs a readfrog.app account). I choose the Notebase and map output fields to its columns myself; you can't set that up. If I want to save results, plan one field per column, with \`number\` fields for number columns.
 
 ## Layout reference
 

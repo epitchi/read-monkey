@@ -314,7 +314,7 @@ describe("built-in site rules", () => {
   })
 
   // Vercel `prose-vercel` docs hide `[data-docs-heading] a span`, which also
-  // hides Read Frog's injected wrapper once it lands inside the heading anchor.
+  // hides Read Monkey's injected wrapper once it lands inside the heading anchor.
   // See https://github.com/mengxi-ream/read-frog/issues/1050
   it("un-hides translations inside Vercel doc headings (issue #1050)", () => {
     for (const url of [

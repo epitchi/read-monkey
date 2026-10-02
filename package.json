@@ -2,7 +2,7 @@
   "name": "@read-frog/extension",
   "version": "1.49.3",
   "private": true,
-  "description": "Read Frog browser extension for language learning",
+  "description": "Read Monkey browser extension for language learning",
   "type": "module",
   "scripts": {
     "build": "wxt build",
